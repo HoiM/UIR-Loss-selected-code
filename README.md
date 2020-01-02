@@ -8,6 +8,12 @@ We proposed the Unseen Identity Rejection Loss to utilize the unlabeled data for
 
 ![](https://github.com/HoiM/UIR-Loss-selected-code/blob/master/images/picture.png)
 
+## Selected results
+
+Below is the performance of our trained ResNet-100 model on the IJB-C dataset.
+
+![](https://github.com/HoiM/UIR-Loss-selected-code/blob/master/images/table.png)
+
 ## Selected code
 
 The implementation of the loss function is in lines 252~265 of ```selelcted_code/semisupervised-finetune.py```. Our implementation is based on the [InsightFace](https://github.com/deepinsight/insightface) repository. Here we used ResNet-100 as the backbone network and arcface loss function for supervised training. 
