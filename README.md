@@ -6,7 +6,7 @@ We release part of our experimental code as a reference for readers that are int
 
 We proposed the Unseen Identity Rejection Loss to utilize the unlabeled data for training discriminative feature representations for face recognition. By introducing features of unknown faces into the high-dimensional space, the feature space can be rearranged so that margins between samples can be further optimized. 
 
-![](.images/picture.png)
+![](https://github.com/HoiM/UIR-Loss-selected-code/blob/master/images/picture.png)
 
 ## Selected code
 
